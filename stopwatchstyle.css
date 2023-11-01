@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+section{
+    margin: 0rem auto 0 auto;
+    display: grid;
+    text-align: center;
+    background: rgb(238,133,245);
+    background: linear-gradient(90deg, rgba(238,133,245,1) 31%, rgba(110,33,210,1) 90%);
+    align-content: center;
+    color: white;
+    width: 100%;
+    height: 100vh;
+}
+button{
+    font-size: 1rem;
+    padding: 0.75rem 1.5rem;
+    margin: 0 0.5rem;
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    border: none;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.425);
+    background-color: #6414cc;
+    border-radius: 5px;
+}
+button:hover{
+    background-color: #8d3df5;
+}
+button:active{
+    background-color: #6414cc;
+}
+h1{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 5rem;
+}
+#stopwatchtext{
+    font-size: 3rem;    
+}
+@media(max-width: 768px){
+    h1{
+        font-size: 3rem;
+    }
+    #stopwatchtext{
+        font-size: 2rem;
+    }
+}
